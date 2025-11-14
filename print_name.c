@@ -6,7 +6,7 @@ int main() {
 
     // Input full name (including spaces)
     printf("Enter your name: ");
-    scanf(" %[^\n]", name);  // Leading space ignores leftover newline
+    scanf(" %[^\n]", name);  
 
     // Input number of times to display the name
     printf("Enter number of times to display your name: ");
@@ -19,7 +19,5 @@ int main() {
             printf("\n"); // Move to next line after 'perLine' names
         }
     }
-
-    printf("\n"); // Final newline after printing all names
     return 0;
 }
