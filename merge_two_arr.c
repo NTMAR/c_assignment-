@@ -48,6 +48,7 @@ int main() {
     for (i = 0; i < n3; i++) {
         printf("%d ", C[i]);
     }
+    printf("\n");
 
     return 0;
 }
